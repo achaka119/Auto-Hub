@@ -76,6 +76,24 @@ responsive media queries, and README documentation.
 
 ![Contact page](assets/screenshots/Contact.png)
 
+#endterm part
+
+## How to use the interactive features
+
+- On the Sale page, search for cars or filter them by body type.
+- In Manage Sample Inventory, add, edit, or delete car records.
+- Inventory changes are saved in the current browser only.
+- On the Home page, select a photo to open the gallery. Use the arrows or keyboard arrow keys to browse.
+- On the Contact page, complete the form to see the validation feedback. This demo does not send messages.
+
+## Project structure
+
+- `index.html` — home page and image gallery
+- `sale.html` — car listings, search, filters, and inventory table
+- `contact.html` — contact form and validation
+- `css/style.css` — page styles
+- `js/script.js` — JavaScript and jQuery features
+
 ## Published website
 
 https://tolbasya.github.io/Auto-Hub/
