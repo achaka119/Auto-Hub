@@ -76,7 +76,7 @@ responsive media queries, and README documentation.
 
 ![Contact page](assets/screenshots/Contact.png)
 
-#endterm part
+# endterm part
 
 ## How to use the interactive features
 
