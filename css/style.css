@@ -84,7 +84,6 @@ textarea:focus {
     background-color: var(--light-color);
 }
 
-/* Flexbox in the header */
 .header-inner {
     display: flex;
     flex-direction: column;
@@ -141,7 +140,6 @@ textarea:focus {
     background-color: var(--light-color);
 }
 
-/* CSS Grid */
 .service-grid,
 .wiki-grid {
     display: grid;
@@ -159,7 +157,6 @@ textarea:focus {
     overflow: hidden;
 }
 
-/* Relative and absolute positioning */
 .car-image-wrap {
     position: relative;
 }
@@ -191,7 +188,6 @@ textarea:focus {
     font-weight: 600;
 }
 
-/* nth-child pseudo-class */
 .comparison-table tbody tr:nth-child(even) > * {
     background-color: var(--light-color);
 }
@@ -257,7 +253,6 @@ textarea:focus {
     top: 0.5rem;
 }
 
-/* Larger mobile screens */
 @media (min-width: 576px) {
     h1 {
         font-size: 1.9rem;
@@ -269,7 +264,6 @@ textarea:focus {
     }
 }
 
-/* Tablets */
 @media (min-width: 768px) {
     h1 {
         font-size: 2rem;
@@ -292,7 +286,6 @@ textarea:focus {
     }
 }
 
-/* Desktops */
 @media (min-width: 992px) {
     .header-inner {
         flex-direction: row;
