@@ -1,9 +1,7 @@
-/* AutoHub endterm interactions: form validation, search/filter, CRUD, and gallery. */
 $(function () {
-    // Registration and contact form validation.
     const $contactForm = $('#contact-form');
     if ($contactForm.length) {
-        const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
+        const emailPattern = /^\S+@\S+\.\S+$/;
         const $password = $('#password');
         const $confirm = $('#confirm-password');
         const $strength = $('#password-strength');
@@ -86,7 +84,6 @@ $(function () {
         });
     }
 
-    // Case-insensitive live search and category filtering on the sale page.
     const $saleItems = $('.sale-card-item');
     if ($saleItems.length) {
         let activeCategory = 'all';
@@ -113,7 +110,6 @@ $(function () {
         filterSaleCars();
     }
 
-    // CRUD demo for car records, persisted in localStorage.
     const $inventoryRows = $('#inventory-rows');
     if ($inventoryRows.length) {
         const storageKey = 'autohubInventoryV1';
@@ -198,8 +194,6 @@ $(function () {
         $('#inventory-cancel').on('click', resetInventoryForm);
         renderCars();
     }
-
-    // Accessible image lightbox with jQuery fade effects and keyboard navigation.
     const galleryImages = [
         { src: 'assets/images/sedan.jpg', alt: 'White sedan parked beside mountains' },
         { src: 'assets/images/suv.jpg', alt: 'Black SUV on a road beside mountains' },
