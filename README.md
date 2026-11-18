@@ -30,7 +30,8 @@ basic information about cars.
 - `js/script.js` — theme, sign-in, FAQ (jQuery), and API code
 
 
-## Links
+## Link
+
 
 - **Repository:** https://github.com/achaka119/Auto-Hub
 - **Website:** https://achaka119.github.io/Auto-Hub/
